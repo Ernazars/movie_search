@@ -1,0 +1,53 @@
+name: movie_search
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  dio: ^5.1.2
+  get_it: ^7.6.0
+  injectable: ^2.1.1
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+  optimized_cached_image: 
+    git:
+      url: https://github.com/humblerookie/optimized_cached_image
+      ref: 5c6401a
+  webview_flutter: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.4
+  injectable_generator: ^2.1.5
+  freezed: ^2.3.4
+  json_serializable: ^6.7.0
+  flutter_launcher_icons:
+    git: 
+      url: https://github.com/fluttercommunity/flutter_launcher_icons.git
+      ref: 3650af0e791d05246e7294c57f04bfb630885bd1
+  flutter_native_splash: ^2.3.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/images/

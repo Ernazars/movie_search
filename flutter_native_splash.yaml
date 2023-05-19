@@ -1,0 +1,7 @@
+flutter_native_splash:
+  color: "#FAFAFA"
+  color_dark: '#303030'
+  image: 'assets/images/logo_icon.png'
+  image_dark: 'assets/images/logo_icon.png'
+
+  
