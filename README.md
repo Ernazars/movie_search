@@ -1,6 +1,10 @@
 # movie_search
 
-A new Flutter project.
+flutter clean && flutter pub get && flutter packages pub run build_runner build --delete-conflicting-outputs,
+
+[✓] Flutter (Channel stable, 3.10.0, on macOS 13.2.1 22D68 darwin-x64)
+[✓] Android toolchain - develop for Android devices (Android SDK version 32.1.0-rc1)
+[✓] Xcode - develop for iOS and macOS (Xcode 14.3)
 
 ## Getting Started
 
